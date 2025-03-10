@@ -1,8 +1,4 @@
 function person(firstName, lastName) {
-  return {
-      firstName: firstName,
-      lastName: lastName
-  };
+  return `${firstName} ${lastName}`; 
 }
-
-module.exports = person
+module.exports = person;
